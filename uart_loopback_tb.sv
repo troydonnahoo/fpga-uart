@@ -4,7 +4,7 @@
 // Design Name: Entire UART TB 
 // Module Name: uart_entire_tb
 
-module uart_entire_tb();
+module uart_loopback_tb();
 
     logic clk, reset;
     logic tx, tx_busy, tx_start;
